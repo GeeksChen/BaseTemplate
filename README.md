@@ -4,6 +4,6 @@
 
 # 模板图示例
 
-![模板1](https://github.com/GeeksChen/BaseTemplate/blob/main/1.png)![模板2](https://github.com/GeeksChen/BaseTemplate/blob/main/1.png)![模板3](https://github.com/GeeksChen/BaseTemplate/blob/main/1.png)
+![模板1](https://github.com/GeeksChen/BaseTemplate/blob/main/1.png)![模板2](https://github.com/GeeksChen/BaseTemplate/blob/main/2.png)![模板3](https://github.com/GeeksChen/BaseTemplate/blob/main/3.png)
 
 
