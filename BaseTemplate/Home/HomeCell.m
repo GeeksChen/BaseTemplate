@@ -8,7 +8,6 @@
 
 #import "HomeCell.h"
 #import "HomeCellView.h"
-#import "Masonry.h"
 
 @interface HomeCell ()
 

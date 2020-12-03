@@ -17,6 +17,12 @@
 		6525FD2E2577886B005CA557 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD2D2577886B005CA557 /* HomeCell.m */; };
 		6525FD31257788C1005CA557 /* HomeCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD30257788C1005CA557 /* HomeCellView.m */; };
 		6525FD34257788D3005CA557 /* HomeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD33257788D3005CA557 /* HomeItemCell.m */; };
+		6525FD3825787E5A005CA557 /* CateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD3725787E5A005CA557 /* CateViewController.m */; };
+		6525FD3B25787F35005CA557 /* BottomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD3A25787F35005CA557 /* BottomTitleView.m */; };
+		6525FD3E25787F43005CA557 /* BottomContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD3D25787F43005CA557 /* BottomContentView.m */; };
+		6525FD4125788314005CA557 /* BottomTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD4025788314005CA557 /* BottomTitleCell.m */; };
+		6525FD4425788321005CA557 /* BottomContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD4325788321005CA557 /* BottomContentCell.m */; };
+		6525FD49257889F1005CA557 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525FD48257889F1005CA557 /* DetailViewController.m */; };
 		B42CE9864C5092ECD8FF797F /* libPods-BaseTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DD23C04968BEED7745DDEE /* libPods-BaseTemplate.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +46,19 @@
 		6525FD30257788C1005CA557 /* HomeCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellView.m; sourceTree = "<group>"; };
 		6525FD32257788D3005CA557 /* HomeItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeItemCell.h; sourceTree = "<group>"; };
 		6525FD33257788D3005CA557 /* HomeItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeItemCell.m; sourceTree = "<group>"; };
+		6525FD3625787E5A005CA557 /* CateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CateViewController.h; path = BaseTemplate/Home/CateViewController.h; sourceTree = SOURCE_ROOT; };
+		6525FD3725787E5A005CA557 /* CateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CateViewController.m; path = BaseTemplate/Home/CateViewController.m; sourceTree = SOURCE_ROOT; };
+		6525FD3925787F35005CA557 /* BottomTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BottomTitleView.h; path = BaseTemplate/Home/BottomTitleView.h; sourceTree = SOURCE_ROOT; };
+		6525FD3A25787F35005CA557 /* BottomTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BottomTitleView.m; path = BaseTemplate/Home/BottomTitleView.m; sourceTree = SOURCE_ROOT; };
+		6525FD3C25787F43005CA557 /* BottomContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BottomContentView.h; path = BaseTemplate/Home/BottomContentView.h; sourceTree = SOURCE_ROOT; };
+		6525FD3D25787F43005CA557 /* BottomContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BottomContentView.m; path = BaseTemplate/Home/BottomContentView.m; sourceTree = SOURCE_ROOT; };
+		6525FD3F25788314005CA557 /* BottomTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BottomTitleCell.h; path = BaseTemplate/Home/BottomTitleCell.h; sourceTree = SOURCE_ROOT; };
+		6525FD4025788314005CA557 /* BottomTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BottomTitleCell.m; path = BaseTemplate/Home/BottomTitleCell.m; sourceTree = SOURCE_ROOT; };
+		6525FD4225788321005CA557 /* BottomContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BottomContentCell.h; path = BaseTemplate/Home/BottomContentCell.h; sourceTree = SOURCE_ROOT; };
+		6525FD4325788321005CA557 /* BottomContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BottomContentCell.m; path = BaseTemplate/Home/BottomContentCell.m; sourceTree = SOURCE_ROOT; };
+		6525FD4525788374005CA557 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6525FD47257889F1005CA557 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = BaseTemplate/DetailViewController.h; sourceTree = SOURCE_ROOT; };
+		6525FD48257889F1005CA557 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = BaseTemplate/DetailViewController.m; sourceTree = SOURCE_ROOT; };
 		8DF60913E31D361CEECE5ECC /* Pods-BaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-BaseTemplate/Pods-BaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		A25E5E8EF0E75EC9A8F8FB22 /* Pods-BaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-BaseTemplate/Pods-BaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +96,8 @@
 		6525FD0E2577848F005CA557 /* BaseTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				6525FD46257889CE005CA557 /* Detail */,
+				6525FD3525787E40005CA557 /* Cate */,
 				6525FD2B2577884A005CA557 /* Home */,
 				6525FD0F2577848F005CA557 /* AppDelegate.h */,
 				6525FD102577848F005CA557 /* AppDelegate.m */,
@@ -87,6 +108,7 @@
 				6525FD1D25778491005CA557 /* LaunchScreen.storyboard */,
 				6525FD2025778491005CA557 /* Info.plist */,
 				6525FD2125778491005CA557 /* main.m */,
+				6525FD4525788374005CA557 /* PrefixHeader.pch */,
 			);
 			path = BaseTemplate;
 			sourceTree = "<group>";
@@ -104,6 +126,32 @@
 				6525FD33257788D3005CA557 /* HomeItemCell.m */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		6525FD3525787E40005CA557 /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+				6525FD3625787E5A005CA557 /* CateViewController.h */,
+				6525FD3725787E5A005CA557 /* CateViewController.m */,
+				6525FD3925787F35005CA557 /* BottomTitleView.h */,
+				6525FD3A25787F35005CA557 /* BottomTitleView.m */,
+				6525FD3F25788314005CA557 /* BottomTitleCell.h */,
+				6525FD4025788314005CA557 /* BottomTitleCell.m */,
+				6525FD3C25787F43005CA557 /* BottomContentView.h */,
+				6525FD3D25787F43005CA557 /* BottomContentView.m */,
+				6525FD4225788321005CA557 /* BottomContentCell.h */,
+				6525FD4325788321005CA557 /* BottomContentCell.m */,
+			);
+			path = Cate;
+			sourceTree = "<group>";
+		};
+		6525FD46257889CE005CA557 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6525FD47257889F1005CA557 /* DetailViewController.h */,
+				6525FD48257889F1005CA557 /* DetailViewController.m */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		9C0EE032F11AC375D7D5B954 /* Pods */ = {
@@ -220,12 +268,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6525FD172577848F005CA557 /* ViewController.m in Sources */,
+				6525FD3E25787F43005CA557 /* BottomContentView.m in Sources */,
 				6525FD112577848F005CA557 /* AppDelegate.m in Sources */,
 				6525FD34257788D3005CA557 /* HomeItemCell.m in Sources */,
+				6525FD3825787E5A005CA557 /* CateViewController.m in Sources */,
 				6525FD2E2577886B005CA557 /* HomeCell.m in Sources */,
+				6525FD4125788314005CA557 /* BottomTitleCell.m in Sources */,
 				6525FD31257788C1005CA557 /* HomeCellView.m in Sources */,
 				6525FD2225778491005CA557 /* main.m in Sources */,
+				6525FD49257889F1005CA557 /* DetailViewController.m in Sources */,
 				6525FD2A2577883F005CA557 /* HomeViewController.m in Sources */,
+				6525FD4425788321005CA557 /* BottomContentCell.m in Sources */,
+				6525FD3B25787F35005CA557 /* BottomTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/chenxiao/Desktop/BaseTemplate/BaseTemplate/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseTemplate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -385,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/chenxiao/Desktop/BaseTemplate/BaseTemplate/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseTemplate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

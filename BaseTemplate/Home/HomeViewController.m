@@ -58,6 +58,12 @@
     
     UIView *sectionHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
     sectionHeaderView.backgroundColor = [UIColor lightGrayColor];
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:sectionHeaderView.frame];
+    label.text = [NSString stringWithFormat:@"section:%ld",section];
+    label.font = [UIFont boldSystemFontOfSize:20];
+    [sectionHeaderView addSubview:label];
+    
     return sectionHeaderView;
 }
 
